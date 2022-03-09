@@ -1,0 +1,39 @@
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'helvetica neue', Arial, sans-serif;
+  color: #111;
+  padding: 24px 24px 0;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  color: aqua;
+  background: #000;
+}
+
+::selection {
+  color: aqua;
+  background: #000;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 42em;
+}
+
+img {
+  max-width: 100%; /* kat in het bakkie*/
+}
