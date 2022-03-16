@@ -11,6 +11,7 @@
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="css/screen.css" />
     <title>Boilerplate</title>
+    <!--
     <style>
       header {
         background-color: hotpink;
@@ -21,8 +22,17 @@
         display: inline;
       }
     </style>
+    -->
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="#heading2">heading2</a></li>
+        <li><a href="#heading3">heading3</a></li>
+        <li><a href="#tables">tables</a></li>
+        <li><a href="#lists">lists</a></li>
+      </ul>
+    </nav>
     <header>
       <h1>Hello world! This is my HTML5 boilerplate.</h1>
       <p>
@@ -31,7 +41,8 @@
         100s of developers, all in one little package.
       </p>
     </header>
-    <h2>Heading 2</h2>
+
+    <h2 id="heading2">Heading 2</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a
       <a href="test.com">standard link</a> distinctio facilis excepturi,
@@ -42,7 +53,7 @@
       <img src="img/yawning-cat.jpeg" alt="yawning-cat" />
       <figcaption>Yawning cat. Photo by Martina Misar-</figcaption>
     </figure>
-    <h3>Heading 3</h3>
+    <h3 id="heading3">Heading 3</h3>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a
       <a href="https://www.google.com">visited link</a> hic nemo dicta
@@ -59,7 +70,7 @@
       </p>
     </blockquote>
     <h3>tables</h3>
-    <table>
+    <table id="tables">
       <tr>
         <th>Titel1</th>
         <th>Titel2</th>
@@ -84,7 +95,7 @@
       </nav>
     </div>
     <p>Add an unorderd list with 3 list items here</p>
-    <ol>
+    <ol id="lists">
       <li>Lorem, ipsum dolor.</li>
       <li>Sunt, quis illum.</li>
       <li>Nemo, voluptas labore!</li>
@@ -122,7 +133,7 @@
     </ul>
     <hr />
     <footer>
-      <p>By <strong>Your name</strong></p>
+      <p>By <strong>Your mom, Obama & Philippe</strong></p>
     </footer>
   </body>
 </html>

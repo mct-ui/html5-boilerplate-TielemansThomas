@@ -10,6 +10,7 @@ html {
   font-family: 'helvetica neue', Arial, sans-serif;
   color: #111;
   padding: 24px 24px 0;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -121,7 +122,12 @@ hr {
 
 a {
   color: royalblue;
-  transition: all 2s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+a:visited,
+a:active {
+  color: violet;
 }
 
 a:hover,
@@ -129,10 +135,7 @@ a:focus {
   color: crimson;
 }
 
-a:visited,
-a:active {
-  color: cornflowerblue;
-}
+/* loVe before Hate*/
 
 /*
     Media Queries
